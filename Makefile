@@ -1,3 +1,6 @@
+help:
+	echo "help"
+
 proto-python:
 	docker run -v ./:/defs namely/protoc-all:latest -d . -o . -l python
 
