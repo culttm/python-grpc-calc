@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package calculator;
+
+option go_package = "/generated;calculator";
+
+message Number {
+    float value = 1;
+}
+
+service Calculator {
+    rpc SquareRoot(Number) returns (Number) {}
+}
