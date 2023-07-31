@@ -1,0 +1,1 @@
+module github.com/culttm/python-grpc-calc/generated
